@@ -1,0 +1,476 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    display: none;
+}
+.header_sub {
+    display: block;
+    position: fixed;
+    left: 0; right: 0; top: 0;
+    max-width: 100%;
+    height: 100px;
+    background: #fff;
+    border-bottom: 1px solid #dadada;
+    box-sizing: border-box;
+    z-index: 100;  
+    text-align: center;
+}
+.header_sub .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%; 
+    height: 100px;
+    padding: 0 30px;
+}
+.header_sub .btn_mobile > span {
+    display: block;
+    width: 36px;
+    height: 2px;
+    background: #000;
+    margin-bottom: 10px;
+}
+header .btn_mobile > span:nth-child(2) {
+    width: 36px;
+    height: 2px;
+    background: #000;
+}
+header .btn_mobile > span:nth-child(3) {
+    width: 36px;
+    height: 2px;
+    background: #000;
+}
+
+
+.header_sub .logo .gnb > a {
+    display: block;
+    width: 180px; height: 50px;
+    background: url(../img/logo_rich.png) no-repeat center/cover;
+}
+.header_sub .logo .ico_insta i {
+    color: #000;
+    font-size: 40px;
+    line-height: 38px;
+}
+.header_sub .btn_sub {
+    display: none;
+    max-width: 100%;
+}
+.header_sub .btn_sub .depth2 {
+
+    max-width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100px;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    color: #000;
+    background-color: #fff;
+    
+}
+.header_sub .btn_sub .depth2 li {
+    width: 200px;
+    /* height: 200px; */
+}
+
+.header_sub .btn_sub .depth2 > li > .sub_gnb> li >a  {
+    display: block;    
+    font-size: 16px;
+    color: #111;
+    line-height: 35px;
+}
+.depth2 > li ul li a:hover,
+.depth2 > li ul li a:focus {
+    color: #8d7249;
+    text-decoration: underline;
+}
+
+/* main02 */
+#main02  {
+    max-width: 100%;
+    margin-bottom: 100px;
+}
+#main02 .cont_wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+#main02 .main_title {
+    width: 100%;
+    height: 50%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+#main02 .collection_pic {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.cont_wrap > .collection_pic > .pic01 {
+    margin-top: 50px;
+}
+.cont_wrap > .collection_pic > .pic03 {
+    margin-top: 100px;
+}
+.cont_wrap > .collection_pic > div img {
+    max-width: 100%;
+}
+
+/* main03 */
+#main03 .cont_wrap {
+    padding: 40px 0 0;
+    background: url(../img/main3-bg.jpg) no-repeat center top/contain;
+}
+#main03 .cont_title {
+    text-align: center;
+    color: #fff;
+}
+#main03 .cont_title h2 {
+    font-family: "Jost", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#main03 .cont_title .text {
+    color: rgba(255,255,255,0.8);
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+#main03 .main03_slide {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#main03 .main03_slide > figure {
+    position: relative;
+    width: 31.5%;
+    height: 400px;
+    transition: all 0.3s 0.3s ease-out;
+} 
+
+/* main04 */
+#main04 {
+    height: 870px;
+    background: url(../img/main4-bg.jpg) no-repeat center/cover;
+}
+#main04 .cont_wrap { 
+    background: transparent;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+#main04 .cont_title > span,
+#main04 .cont_title strong {    
+    display: block;
+    text-align: center;    
+}
+#main04 .cont_title > span {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #8d7249;
+    margin-bottom: 20px;
+}
+#main04 .cont_title > p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+#main04 .cont_title > p > strong {
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#main04 .plan_list {
+    width: 700px;
+    margin: 80px auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #fff;
+}
+#main04 .plan_list > li {
+    width: 50%;
+    border: 1px solid #fff;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#main04 .plan_list strong {
+    display: block;
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#main04 .plan_list span, 
+#main04 .plan_list i {
+    font-weight: 400;
+    font-size: 30px;
+}
+#main04 .plan_list p {
+    font-size: 18px;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 20px;
+}
+#main04 .plan_list .plan_info {
+    display: flex;
+}
+#main04 .plan_list .plan_info a {
+    display: block;
+    width: 100%;
+    padding: 65px 0 20px;
+    box-sizing: border-box;
+    background: #8d7249 no-repeat center 20px;
+}
+#main04 .plan_list .plan_info a.plan {
+    background-image: url(../img/floorplan-icon.png);
+}
+#main04 .plan_list .plan_info a.vr {
+    background-image: url(../img/vr-icon.png);
+}
+#main04 .plan_list .plan_info.vr_info a.plan {
+    width: 50%;
+}
+#main04 .plan_list .vr_info a.vr {
+    width: 50%;
+    background-color: #59483f;
+}
+#main04 .plan_list .plan_info a:hover {
+    background-color: #fff;
+    color: #000;
+}
+#main04 .plan_list .plan_info a.plan:hover {
+    background-image: url(../img/floorplan-icon-on.png);   
+}
+#main04 .plan_list .plan_info a.vr:hover {
+    background-image: url(../img/vr-icon-on.png);
+}
+footer > .cont_wrap {
+    padding: 80px;
+}
+
+/* max-width: 430px */
+@media screen and (max-width: 430px) {
+ 
+    .header_sub .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%; 
+        height: 100px;
+        padding: 0 30px;
+    }
+    .header_sub .btn_mobile > span {
+        display: block;
+        width: 36px;
+        height: 2px;
+        background: #000;
+        margin-bottom: 10px;
+    }
+    header .btn_mobile > span:nth-child(2) {
+        width: 36px;
+        height: 2px;
+        background: #000;
+    }
+    header .btn_mobile > span:nth-child(3) {
+        width: 36px;
+        height: 2px;
+        background: #000;
+    }
+    
+    
+    .header_sub .logo .gnb > a {
+        display: block;
+        width: 135px; height: 34px;
+        background: url(../img/logo_rich.png) no-repeat center/contain;
+    }
+    .header_sub .logo .ico_insta i {
+        color: #000;
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .header_sub .btn_sub {
+        display: none;
+        max-width: 100%;
+    }
+    .header_sub .btn_sub .depth2 {
+    
+        max-width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 100px;
+        padding: 50px 50px;
+        box-sizing: border-box;
+        color: #000;
+        background-color: #fff;
+        
+    }
+    .header_sub .btn_sub .depth2 li {
+        width: 200px;
+        /* height: 200px; */
+    }
+    
+    .header_sub .btn_sub .depth2 > li > .sub_gnb> li >a  {
+        display: block;    
+        font-size: 16px;
+        color: #111;
+        line-height: 35px;
+    }
+    .depth2 > li ul li a:hover,
+    .depth2 > li ul li a:focus {
+        color: #8d7249;
+        text-decoration: underline;
+    }
+    
+/* main01 */
+#main01 {
+    position: relative;
+    margin-bottom: 100px;
+}
+.main_title {
+    height: 30vh;
+   
+}
+.main_title .mid_text {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.main_title h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    line-height: 1.3;
+}
+.main_title .text {
+    font-size: 20px;
+    font-weight: 500;
+}
+  
+    /* main03 */
+    #main03 .cont_wrap {
+        padding: 10px 0 0;
+    }
+    #main03 .cont_title {
+        text-align: center;
+        color: #fff;
+    }
+    #main03 .cont_title h2 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    #main03 .cont_title .text {
+        font-size: 18px;
+    }
+    #main03 .main03_slide {
+        max-width: 100%;
+        height: 300px;
+    }
+  
+    
+    /* main04 */
+    #main04 {
+        height: 870px;
+        background: url(../img/main4-bg.jpg) no-repeat center/cover;
+    }
+    #main04 .cont_wrap { 
+        background: transparent;
+        padding: 100px 0;
+        box-sizing: border-box;
+    }
+    #main04 .cont_title > span,
+    #main04 .cont_title strong {    
+        display: block;
+        text-align: center;    
+    }
+    #main04 .cont_title > span {
+        font-family: "Jost", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: #8d7249;
+        margin-bottom: 20px;
+    }
+    #main04 .cont_title > p {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+    }
+    #main04 .cont_title > p > strong {
+        font-size: 38px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    #main04 .plan_list {
+        width: 380px;
+        margin: 80px auto 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        color: #fff;
+    }
+   
+ 
+   
+    
+    /* footer */
+footer {
+    background: #2a2d2e;
+}
+footer .cont_wrap {
+    padding: 100px 0;
+    text-align: center;
+}
+footer .f_logo {
+    margin-bottom: 40px;
+}
+footer ul {
+    margin-bottom: 40px;
+}
+footer ul li {
+    color: rgba(255,255,255,0.3);
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 14px;
+}
+footer address {
+    color: rgba(255,255,255,0.6);    
+    margin-bottom: 25px;
+}
+footer address span {
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: rgba(255,255,255,0.5);
+}
+footer .foot_brand span {
+    margin: 0 15px;
+    color: rgba(255,255,255,0.8);
+}
+footer .foot_brand span i {
+    font-size: 15px;
+    font-weight: 300;
+    margin-right: 5px;
+}
+footer .foot_brand span strong {
+    font-weight: 500;
+    font-size: 20px;
+}
+}
